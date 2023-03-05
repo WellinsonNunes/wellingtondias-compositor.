@@ -137,3 +137,8 @@ footer {
     color: white;
     padding: 10px;
 }
+
+p.menu {
+    text-align: center;
+    font-size: 1.2;
+}
