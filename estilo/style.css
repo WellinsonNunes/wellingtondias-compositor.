@@ -71,7 +71,16 @@ section > p {
 
 section.perfil {
     background-image: url(../imagens/kbssa1.png);
-    height: 50px;
+    background-repeat: no-repeat;
+    width: 40vw;
+    position: absolute;
+    height: 90px;
+    left: 40px;
+    top: 40px;
+    height: 10vh;
+    background-size: contain;
+
+
 }
 
 section.normal {
