@@ -1,80 +1,181 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>À Deriva</title>
-    <link rel="stylesheet" href="estilo/style.css">
+    <title>Projeto - Horizonte Infinitos</title>
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+    * {
+        margin: 0px;
+        padding: 0px;
+        
+    }
+
+    html, body {
+        height: 100vh;
+        width: 100vw;
+        background-color: blanchedalmond;
+    }
+
+    main {
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+        background-image: url(imagens/horizonte.png);
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        
+    }
+
+    section.titulo {
+        background-color: rgba(0, 0, 255, 0.5);
+        padding: 10px;
+        
+        
+
+    }
+    
+    h1 {
+        font-family: 'Passion One', cursive;
+        font-size: 3em;
+        text-align: center;
+        color: white;
+        letter-spacing: 3px;
+        text-shadow: 0px 5px 9px rgba(0, 0, 0, 0.466);
+        
+    }
+
+    section.musicas {
+
+        margin-left: 20px;
+        margin-top: 15px;
+        height: 350px;
+        
+    }
+
+    section.paginas {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        
+        
+    }
+
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4em;
+        display: inline-block;
+    }
+
+    
+    div.menu {
+            background-color: rgba(0, 0, 0, 0.514);
+            width: 350px;
+            height: 25px;
+            border: 1px solid black;
+            display: inline-block;
+            display: block;
+            padding: 5px;
+            box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.349);
+        }
+
+        div#titulo {
+            margin-top: 10px;
+            background-color: yellow;
+        }
+
+        h3 {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+        }
+
+        h3.cabecalho {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: black;
+            
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            
+            color: white;
+            font-size: 1.1em;
+            text-decoration: dashed;
+        }
+
+    footer {
+        background-color: rgba(187, 187, 224, 0.5);
+        padding: 10px;
+    }
+
+    p {
+        text-align: center;
+        color: black;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    
+    
+
+</style>
 <body>
-    <header>
-        <section class="perfil">
+    <main>
+        <section class="titulo">
+            <h1>Horizontes Infinitos</h1>
+
         </section>
-        <h1>À Deriva</h1>
-        <p>Por <a href=https://www.youtube.com/@wellingtondias4075 target="_blank">Wellington Dias</a></p>
+
+        <section class="musicas">
+            <div class="menu" id="titulo">
+                <h3 class="cabecalho">Músicas</h3>
+            </div>
+            <div class="menu">
+                <a href="pagina.html" target="frame">
+                    <h3>À Deriva</h3>
+                </a>
+            </div>
+            <div class="menu">
+                <a href="#">
+                    <h3>Procura-se</h3>
+                </a>
+            </div>
+            <div class="menu">
+                <a href="#">
+                    <h3>A caminho de Pentecostes</h3>
+                </a>
+            </div>
+            <div class="menu">
+                <a href="#">
+                    <h3>Onde está a alegria?</h3>
+                </a>
+            </div>
         
+            
+                
         
-    </header>
 
-    <section class="normal">
-        <p>
-            Ao me ver perdido em meio ao caos. <br>
-            Qual é o meu sustento? <br>
-            Ao tentar fugir, não enfrentar. <br>
-            Será que estou isento? <br>
-            Charadas sem solução <br>
-            Mistério sem explicação 
-        </p>
-    </section>
+        </section>
 
-    
+        <section class="paginas">
+            <iframe src="pagina.html" frameborder="1" height="400px" width="400px" name="frame"></iframe>
+        </section>
 
-    <section class="imagem" id="img01">
-        <p>
-            O tempo passa e as respostas são levadas pelo vento. <br>
-            A esperança só parece um pequeno fragmento <br>
-            Capaz de alicerçar meu coração <br>
-            O imperfeito capaz da perfeição
-        </p>
-    </section>
-
-    
-
-    <section class="normal">
-        <p>
-            A deriva estou a procurar <br>
-            a terra firme e sagrada onde eu possa descansar <br>
-            Os meus pés calejados de escalar <br>
-            as montanhas que me levam ao prêmio conquistar <br>
-            e enfim te contemplar
-        </p>
-
-        
-    </section>
-
-    
-
-    <section class="imagem" id="img02">
-        <p>
-            Aumenta a sede de infinito. Qual é meu alimento? <br>
-            Amores sedutores disfarçados. A quem eu pertenço? <br>
-            Prefiro me perder a procurar <br>
-            Do que fingir ser feliz em um falso lugar
-        </p>
-    </section>
-
-    
-
-    <section class="video">
-        <iframe width="200" height="215" src="https://www.youtube.com/embed/rWeHIQjz5IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </p>
-        
-    </section>
-    <p class="menu"><a href="pagina1.html">Menu</a></p>
+        <p><a href="index.html">Página inicial</a></p>
+    </main>
 
     <footer>
-        <p>Site criado por <a href="https://github.com/WellinsonNunes" target="_blank">wellinson nunes.</a></p>
+        <p>Site criado por WellinsonNunes.</p>
     </footer>
+    
 </body>
 </html>

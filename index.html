@@ -30,6 +30,7 @@
             display: inline-block;
             padding-right: 10px;
             text-shadow: 0px 7px 9px black;
+            margin-top: 10px;
             margin-bottom: 10px;
             
         }
@@ -40,18 +41,47 @@
             text-shadow: 0px 7px 9px rgba(0, 0, 0, 0.411);
             display: inline;
             position: absolute;
-            top: 150px;
+            top: 110px;
             left: 280px;
         }
         
+        div.menu {
+            background-color: rgba(0, 0, 0, 0.514);
+            width: 400px;
+            height: 25px;
+            border: 1px solid black;
+            
+            padding: 5px;
+            box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.349);
+        }
+
+        div#titulo {
+            margin-top: 160px;
+            background-color: yellow;
+        }
+
         h3 {
-            margin-top: 90px;
-            font-size: 2em;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+        }
+
+        h3.cabecalho {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: black;
             
         }
 
         a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            
             color: white;
+            font-size: 1.1em;
+            text-decoration: dashed;
         }
         
     </style>
@@ -60,7 +90,30 @@
 <body>
     <h1> Wellington Dias </h1>
     <h2>Compositor</h2>
-    <h3><a href="index.html">Músicas</a></h1>
+    
+    <div class="menu" id="titulo">
+        <h3 class="cabecalho">Meus Projetos</h3>
+    </div>
+    <div class="menu">
+        <a href="pagina1.html">
+            <h3>Horizontes Infinitos</h3>
+        </a>
+    </div>
+    <div class="menu">
+        <a href="#">
+            <h3>Procura-se</h3>
+        </a>
+    </div>
+    <div class="menu">
+        <a href="#">
+            <h3>A caminho de Pentecostes</h3>
+        </a>
+    </div>
+    <div class="menu">
+        <a href="#">
+            <h3>Onde está a alegria?</h3>
+        </a>
+    </div>
     
 </body>
 </html>
