@@ -15,11 +15,41 @@
             padding: 0px;
         }
 
+        html, body {
+            height: 100vh;
+            width: 100vw;
+            background-color: black;
+        }
+
         body {
             background-image: url('imagens/fundo.png');
             background-attachment: fixed;
             background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        section#rede-sociais {
+            position: relative;
+            left: 100px;
+            top: 50px;
+        }
+
+        section#rede-sociais img {
+            width: 50px;
+            border-radius: 50%;
+            margin: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541);
+            box-sizing: border-box;
+        }
+
+        section#rede-sociais img:hover {
+            border: 2px solid rgba(255, 255, 255, 0.473);
+            transform: translate(-0px,-3px);
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.582);
+            transition: transform 0.5s;
+
+
         }
 
         h1 {
@@ -56,7 +86,7 @@
         }
 
         div#titulo {
-            margin-top: 160px;
+            margin-top: 180px;
             background-color: yellow;
         }
 
@@ -83,37 +113,56 @@
             font-size: 1.1em;
             text-decoration: dashed;
         }
+
+        footer {
+            background-color: black;
+            padding: 3px;
+        }
         
     </style>
 </head>
 
 <body>
-    <h1> Wellington Dias </h1>
-    <h2>Compositor</h2>
-    
-    <div class="menu" id="titulo">
-        <h3 class="cabecalho">Meus Projetos</h3>
-    </div>
-    <div class="menu">
-        <a href="pagina1.html">
-            <h3>Horizontes Infinitos</h3>
-        </a>
-    </div>
-    <div class="menu">
-        <a href="#">
-            <h3>Procura-se</h3>
-        </a>
-    </div>
-    <div class="menu">
-        <a href="#">
-            <h3>A caminho de Pentecostes</h3>
-        </a>
-    </div>
-    <div class="menu">
-        <a href="#">
-            <h3>Onde está a alegria?</h3>
-        </a>
-    </div>
+    <main>
+        <section id="nome">
+            <h1> Wellington Dias </h1>
+            <h2>Compositor</h2>
+        </section>
+        
+        <div class="menu" id="titulo">
+            <h3 class="cabecalho">Meus Projetos</h3>
+        </div>
+        <div class="menu">
+            <a href="pagina1.html">
+                <h3>Horizontes Infinitos</h3>
+            </a>
+        </div>
+        <div class="menu">
+            <a href="#">
+                <h3>Procura-se</h3>
+            </a>
+        </div>
+        <div class="menu">
+            <a href="#">
+                <h3>A caminho de Pentecostes</h3>
+            </a>
+        </div>
+        <div class="menu">
+            <a href="pagina2.html">
+                <h3>Onde está a alegria?</h3>
+            </a>
+        </div>
+        <section id="rede-sociais">
+            <a href="#" target="_blank"><img src="imagens/logo-instagram.jpg" alt="youtube"></a>
+            <a href="#" target="_blank"><img src="imagens/logo-twitter.jpg" alt="instagram"></a>
+            <a href="https://www.youtube.com/@wellingtondias4075"target="_blank"><img src="imagens/logo-youtube.jpg" alt="youtube"></a>
+        </section>
+
+        
+        
+    </main>
+
     
 </body>
+
 </html>
