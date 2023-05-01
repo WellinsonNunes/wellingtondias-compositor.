@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo/paginas.css">
-    <title>Projeto - Horizonte Infinitos</title>
+    <title>Projeto - Onde está a alegria</title>
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2? family= Reem+Kufi+Fun:wght@400;500;600;700 & display=swap');
@@ -23,23 +22,17 @@
 
     main {
         height: 100vh;
-        background-image: url(imagens/horizonte.png);
-        background-position: bottom center;
+        position: relative;
+        background-image: url(imagens/fundo-alegria.png);
+        background-attachment: fixed;
+        background-position: center center;
         background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
         
     }
 
     section.titulo {
-        background-color: rgba(0, 0, 255, 0.5);
-        padding: 3px;
-        flex-basis: 100%;
-        display: flex;
-        justify-content: center;
-    
-        
+        background-color: rgba(55, 55, 59, 0.5);
+        padding: 10px;
         
         
 
@@ -47,7 +40,6 @@
     
     h1 {
         font-family: 'Reem Kufi Fun', cursive;
-        margin-top: 20px;
         font-size: 3em;
         text-align: center;
         color: white;
@@ -56,34 +48,29 @@
         
     }
 
-    section.principal {
-        flex: 1 0 400px;
-        padding: 20px;
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 320px;
-        row-gap: 20px;
-        
-    }
-
     section.musicas {
-        
-        margin-left: 30px;
-        
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        height: 350px;
         
     }
 
     section.paginas {
-        margin-left: 30px;
-        
+        position: absolute;
+        top: 20%;
+        left: 60%;
          
     }
 
+    iframe {
+        position: relative;
+    }
+
     section.home {
-        display: flex;
-        justify-content: left;
-        padding: 10px;
-        
+        position: relative;
+        margin-left: 10px;
+        top: 5px;
     }
 
     section.home img {
@@ -109,7 +96,7 @@
     
     div.menu {
             background-color: rgba(0, 0, 0, 0.514);
-            width: 400px;
+            width: 350px;
             height: 25px;
             border: 1px solid black;
             display: inline-block;
@@ -160,14 +147,6 @@
     }
 
     @media (max-width: 460px) {
-
-        main {
-            background-image: url(imagens/horizonte-retrato.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: bottom center;
-            
-        }
         div.menu {
             width: 90%;
             height: 50px;
@@ -212,55 +191,53 @@
 <body>
     <main>
         <section class="titulo">
-            <h1>Horizontes Infinitos</h1>
+            <h1>A caminho de pentecostes</h1>
 
         </section>
+
+        <section class="musicas">
+            <div class="menu" id="titulo">
+                <h3 class="cabecalho">Músicas</h3>
+            </div>
+            <div class="menu">
+                <a href="pagina.html" target="frame">
+                    <h3>Contradição</h3>
+                </a>
+            </div>
+            <div class="menu">
+                <a href="#">
+                    <h3>Além</h3>
+                </a>
+            </div>
+            <div class="menu">
+                <a href="#">
+                    <h3>Crivo do Amor</h3>
+                </a>
+            </div>
+            <div class="menu">
+                <a href="#">
+                    <h3>Mistério</h3>
+                </a>
+            </div>
+        
+            
+                
+        
+
+        </section>
+
+        <section class="paginas">
+            <iframe src="pagina.html" frameborder="1" height="400px" width="400px" name="frame"></iframe>
+        </section>
+
         <section class="home">
-            <a href="index.html"><img src="imagens/logo-home.jpg" alt="menu"></a>
-       </section>
-
-        <section class="principal">
-            <section class="musicas">
-                <div class="menu" id="titulo">
-                    <h3 class="cabecalho">Músicas</h3>
-                </div>
-                <div class="menu">
-                    <a href="pagina.html" target="frame">
-                        <h3>Depressa</h3>
-                    </a>
-                </div>
-                <div class="menu">
-                    <a href="#">
-                        <h3>Irrevogável Decisão</h3>
-                    </a>
-                </div>
-                <div class="menu">
-                    <a href="#">
-                        <h3>Vigora</h3>
-                    </a>
-                </div>
-                <div class="menu">
-                    <a href="#">
-                        <h3>O impulso</h3>
-                    </a>
-                </div>
-            
-            
-            
-            
-            </section>
-            <section class="paginas">
-                <iframe src="pagina.html" frameborder="1" height="400px" width="400px" name="frame"></iframe>
-            </section>
-            
+             <a href="index.html"><img src="imagens/logo-home.jpg" alt="menu"></a>
         </section>
-
-        <footer>
-            <p>Site criado por WellinsonNunes.</p>
-        </footer>
     </main>
 
-    
+    <footer>
+        <p>Site criado por WellinsonNunes.</p>
+    </footer>
     
 </body>
 </html>
