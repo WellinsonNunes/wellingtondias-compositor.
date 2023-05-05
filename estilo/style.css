@@ -78,9 +78,15 @@ h2 {
     
 }
 
-@media (min-width:410px) and (max-width:720px) {
+@media (min-width:410px) and (max-width:550px) {
     section.menu {
-        top: 500px;
+        top: 320px;
+    }
+}
+
+@media (min-width:550px) and (max-width:720px) {
+    section.menu {
+        top: 320px;
     }
 }
 
