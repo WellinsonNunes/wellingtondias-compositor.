@@ -84,3 +84,10 @@ h2 {
     }
 }
 
+
+@media (min-width:720px) {
+    section.menu {
+        top: 320px;
+    }
+}
+
