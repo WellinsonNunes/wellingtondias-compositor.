@@ -1,0 +1,30 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+    
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: #002573;
+    font-family: var(--fonte1);
+}
+
+body {
+    background-image: url(../imagens/Fundo02.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom center;
+}
