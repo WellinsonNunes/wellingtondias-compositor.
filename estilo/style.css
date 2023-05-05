@@ -78,3 +78,9 @@ h2 {
     
 }
 
+@media (min-width:410px) {
+    section.menu {
+        top: 500px;
+    }
+}
+
