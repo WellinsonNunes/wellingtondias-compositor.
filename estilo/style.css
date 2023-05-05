@@ -45,15 +45,36 @@ div.projeto {
     color: white;
     font-size: 10px;
     text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
+    
+}
+
+div.projeto a {
+    color: white;
+    text-decoration: none;
+}
+ 
+
+div.projeto:hover {
+    padding: 20px;
+    font-size: 17px;
+    text-shadow: 2px 2px 2px rgba(5, 5, 5, 0.295);
 }
 
 div#meusProjetos {
     background-color: rgb(19, 19, 19);
+    color: white;
+    text-align: center;
     
 }
 
 h1 {
     font-family:var(--fonte3);
     font-size: 20px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
