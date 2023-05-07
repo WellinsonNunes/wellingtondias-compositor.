@@ -24,27 +24,27 @@ button2.addEventListener('click', function(){
 
 })
 
-var button = document.querySelector('#executar')
-var letra = document.querySelector('.letra')
+var button3 = document.querySelector('#executar3')
+var letra3 = document.querySelector('#letra3')
 
-button.addEventListener('click', function(){
-    if(letra.style.display === 'block') {
-        letra.style.display = 'none';
+button3.addEventListener('click', function(){
+    if(letra3.style.display === 'block') {
+        letra3.style.display = 'none';
     } else {
-        letra.style.display = 'block';
+        letra3.style.display = 'block';
     }
 
 
 })
 
-var button = document.querySelector('#executar')
-var letra = document.querySelector('.letra')
+var button4 = document.querySelector('#executar4')
+var letra4 = document.querySelector('#letra4')
 
-button.addEventListener('click', function(){
-    if(letra.style.display === 'block') {
-        letra.style.display = 'none';
+button4.addEventListener('click', function(){
+    if(letra4.style.display === 'block') {
+        letra4.style.display = 'none';
     } else {
-        letra.style.display = 'block';
+        letra4.style.display = 'block';
     }
 
 
