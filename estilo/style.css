@@ -106,11 +106,11 @@ footer a {
 /* versão mobile */
 @media screen and(min-width:320px) and (max-width:375px) {
     main {
-        height: 630px;
+        height: 658px;
     }
     
     section.menu {
-        top: 290px;
+        top: 291px;
     }
 }
 
@@ -120,7 +120,7 @@ footer a {
     }
     
     section.menu {
-        top: 380px;
+        top: 375px;
     }
 }
 
