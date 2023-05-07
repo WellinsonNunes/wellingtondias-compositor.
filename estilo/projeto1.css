@@ -18,17 +18,42 @@
 
 html, body {
     min-height: 100vh;
-    background-color: #002573;
+    background-image: linear-gradient(90deg, #3b6292, #2e6381, #2f5c75, #295a74);
     font-family: var(--fonte1);
-}
-
-body {
-    background-image: url(../imagens/Fundo02.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom center;
 }
 
 div.titulo {
     text-align: center;
+    width: 320px;
+}
+
+section.principal {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 15px;
+}
+
+
+div.musica {
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 14px;
+    text-align: center;
+}
+h2 {
+    font-size: 11px;
+}
+
+div.letra {
+    height: 150%;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
+}
+
+.foto02 {
+    width: 250px;
 }

@@ -161,10 +161,10 @@ footer a {
     }
 
     section.menu {
-        top: 5px;
+        top: 0px;
         height: 40px;
         display: grid;
-        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-columns: 13% 20% 20% 23% 23%;
 
     }
 
