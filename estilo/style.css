@@ -88,7 +88,7 @@ h2 {
 }
 
 footer {
-    background-color: #312f2e;
+    background-color: #242221;
     color: white;
     padding: 10px;
     text-align: center;
@@ -99,7 +99,7 @@ footer p {
 }
 
 footer a {
-    color: rgb(34, 34, 34);
+    color: rgb(102, 97, 97);
     text-decoration: none;
 }
 
@@ -113,12 +113,12 @@ footer a {
 /* versão tablet */
 @media (min-width:426px) and (max-width:768px) {
     section.menu {
-        top: 320px;
+        top: 340px;
     }
 }
 
 
-@media (min-width:769px) {
+@media (min-width:768px) {
     body {
         background-image: url(../imagens/fundo01-paisagem.png);
         background-position: center center;
