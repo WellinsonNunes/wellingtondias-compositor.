@@ -110,7 +110,7 @@ footer a {
     }
     
     section.menu {
-        top: 310px;
+        top: 290px;
     }
 }
 
@@ -120,14 +120,14 @@ footer a {
     }
     
     section.menu {
-        top: 340px;
+        top: 380px;
     }
 }
 
 /* versão tablet */
 @media (min-width:425px) and (max-width:768px) {
     section.menu {
-        top: 410px;
+        top: 440px;
         
     }
 
