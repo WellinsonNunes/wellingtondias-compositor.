@@ -4,10 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;
+    --fonte4: 'Bebas Neue', sans-serif;
     
 }
 
@@ -88,7 +91,18 @@ footer {
     background-color: #312f2e;
     color: white;
     padding: 10px;
+    text-align: center;
 }
+
+footer p {
+    font-family: var(--fonte4);
+}
+
+footer a {
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+}
+
 /* versão mobile */
 @media (min-width:320px) and (max-width:425px) {
     section.menu {
